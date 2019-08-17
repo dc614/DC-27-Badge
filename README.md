@@ -9,7 +9,7 @@ Note: Purchase links are "for example." You can often find better deals elsewher
 * 3x ??? Resistors
 * 1x ??? LED
 * 2x [1x13 female header rows](https://smile.amazon.com/2-54mm-Female-Single-Straight-Header/dp/B07SDDHZ34)
-* 1x MicroSDXC card (minimum 4 GB capacity)
+* 1x [MicroSDXC card (minimum 4 GB capacity)](https://smile.amazon.com/SanDisk-Professional-MicroSDXC-Hero-formatted/dp/9973399986/)
 * 1x [Orange Pi Zero 512 MB](https://smile.amazon.com/Orange-Pi-Single-Board-Computer/dp/B0773HFXCY)
 * 2x [Female USB-A ports](https://smile.amazon.com/TOVOT-Female-Connector-Mounting-Assortment/dp/B07569PK5B/)
 * 1x [Ralink RT5370 with antenna](https://smile.amazon.com/Connecting-Wireless-Adapter-150Mbps-Raspberry/dp/B073J3HXZH)
