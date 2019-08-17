@@ -20,6 +20,30 @@ Note: Purchase links are "for example." You can often find better deals elsewher
 * 2x [9v battery buckles](https://smile.amazon.com/uxcell-Battery-Connector-Leather-Housing/dp/B07BRRCBWY/)
 * 2x [3D-printed 9v battery holders](https://www.thingiverse.com/thing:3364699)
 
+## Supplies and Equipment
+
+### Preparation
+
+* [Hot glue gun with glue](https://smile.amazon.com/Blusmart-Upgraded-Temperature-Projects-Artistic/dp/B01LW8UVYJ/)
+* [Voltmeter](https://smile.amazon.com/INNOVA-3320-Auto-Ranging-Digital-Multimeter/dp/B000EVYGZA/)
+* [Screwdriver](https://smile.amazon.com/Precision-Screwdriver-Flathead-Different-Electronic/dp/B07TDGXV5H/)
+
+### Soldering
+
+* [Soldering iron](https://smile.amazon.com/gp/product/B00M1O9ZSG/) (and a [soldering iron tip cleaner](https://smile.amazon.com/Hakko-599B-02-Wire-type-soldering-cleaner/dp/B00FZPGDLA/) if possible)
+* [Lead based rosin core solder](https://smile.amazon.com/MAIYUM-63-37-Solder-Electrical-Soldering/dp/B076QF1Y85)
+* [Flux](https://smile.amazon.com/MG-Chemicals-milliliters-Pneumatic-Dispensing/dp/B00425FUW2/)
+* [Soldering microscope](https://smile.amazon.com/Microscope-Soldering-Magnifier-Adjustable-Rechargeable/dp/B076KPGK2J/) (if possible)
+* [Hot air station](https://smile.amazon.com/Tek-Motion-Display-Soldering-Station/dp/B01MR2IWBN/) (if possible)
+
+### Cleaning
+
+* [Powder-free nitrile gloves](https://smile.amazon.com/AMMEX-GPNB46100-BX-GlovePlus-Disposable-Industrial/dp/B004BR8KB4)
+* [Soft bristle toothbrushes](https://smile.amazon.com/Oral-B-Bristles-Indicator-Contour-Toothbrush/dp/B06XK5MQG5/)
+* [Isopropyl alcohol](https://smile.amazon.com/Amazon-Brand-Isopropyl-Antiseptic-Technical/dp/B07NFSFBXQ/)
+* [Paper towels](https://smile.amazon.com/Amazon-Brand-Flex-Size-Regular/dp/B074CTW469/)
+* [Lens cleaning wipes](https://smile.amazon.com/Care-Touch-Moistened-Cleansing-Eyeglasses/dp/B01NCOUY05/)
+
 ## Preparation
 
 * Carefully shuck the plastic from the RT5370 module so that it can comfortably fit behind the PCB.
@@ -40,12 +64,12 @@ Note: Purchase links are "for example." You can often find better deals elsewher
 
 ## Cleanup
 
-1. TODO
+Using nitrile gloves, isopropyl alcohol, paper towels, and a soft-bristled toothbrush, clean any remaining flux from the PCB and gently wipe and buff the front surface of the board. Use lens cleaning cloths for stubborn sticky spots.
 
 ## Creating the Boot Image
 
-1. Use reconstruct.sh within the image directory to create the flashable .img.
-2. You can then use something like balenaEtcher or dd to write the resulting .img to the MicroSDXC card (at least 4 GB).
+1. Within the `image` directory, run `reconstruct.sh` to create the flashable `.img`.
+2. Use [balenaEtcher](https://www.balena.io/etcher/) (or `dd`) to write the resulting `.img` to the MicroSDXC card.
 
 ## Final Steps
 
