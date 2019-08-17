@@ -8,6 +8,7 @@ Note: Purchase links are "for example." You can often find better deals elsewher
 * 1x DC614 PCB
 * 3x ??? Resistors
 * 1x ??? LED
+* Assorted [male header pins](https://smile.amazon.com/Bestsupplier-Single-2-54mm-Header-Connector/dp/B0716BFCQ4/)
 * 2x [1x13 female header rows](https://smile.amazon.com/2-54mm-Female-Single-Straight-Header/dp/B07SDDHZ34)
 * 1x [MicroSDXC card (minimum 4 GB capacity)](https://smile.amazon.com/SanDisk-Professional-MicroSDXC-Hero-formatted/dp/9973399986/)
 * 1x [Orange Pi Zero 512 MB](https://smile.amazon.com/Orange-Pi-Single-Board-Computer/dp/B0773HFXCY)
@@ -22,11 +23,14 @@ Note: Purchase links are "for example." You can often find better deals elsewher
 
 ## Supplies and Equipment
 
-### Preparation
+### Preparation/Misc
 
 * [Hot glue gun with glue](https://smile.amazon.com/Blusmart-Upgraded-Temperature-Projects-Artistic/dp/B01LW8UVYJ/)
 * [Voltmeter](https://smile.amazon.com/INNOVA-3320-Auto-Ranging-Digital-Multimeter/dp/B000EVYGZA/)
 * [Screwdriver](https://smile.amazon.com/Precision-Screwdriver-Flathead-Different-Electronic/dp/B07TDGXV5H/)
+* [Pliars](https://smile.amazon.com/AmazonBasics-Plier-Tools-Set/dp/B015X2NHOK/)
+* [Wire cutters/strippers](https://smile.amazon.com/VISE-GRIP-Stripping-Cutter-8-Inch-2078309/dp/B000JNNWQ2/)
+* [Dykes](https://smile.amazon.com/VISE-GRIP-Diagonal-Cutting-Pliers-2078306/dp/B000A0S4YO/)
 
 ### Soldering
 
@@ -35,6 +39,7 @@ Note: Purchase links are "for example." You can often find better deals elsewher
 * [Flux](https://smile.amazon.com/MG-Chemicals-milliliters-Pneumatic-Dispensing/dp/B00425FUW2/)
 * [Soldering microscope](https://smile.amazon.com/Microscope-Soldering-Magnifier-Adjustable-Rechargeable/dp/B076KPGK2J/) (if possible)
 * [Hot air station](https://smile.amazon.com/Tek-Motion-Display-Soldering-Station/dp/B01MR2IWBN/) (if possible)
+* [Solder wick](https://smile.amazon.com/Tabiger-Solder-Desoldering-Sucker-Remover/dp/B0777LMVTT/)
 
 ### Cleaning
 
@@ -52,15 +57,29 @@ Note: Purchase links are "for example." You can often find better deals elsewher
 
 ## Desoldering
 
-1. TODO
+### LM386
+
+1. Desolder the speaker wire holder (connector at the end) from the LM386.
+2. Desolder the 4 header pins from the other end of the LM386, carefully leaving the holes clean for reuse
+
+### Pi
+
+1. Desolder the 13 header pins from the Orange Pi Zero, carefully leaving the holes clean for reuse
 
 ## Surface-Mount Soldering
 
-1. TODO
+1. Solder the resistors and LED into their respective places on the face of the board
 
 ## Remaining Soldering
 
-1. TODO
+1. Solder 13 header pins to the one-row side of the Orange Pi Zero, facing opposite in orientation to the original header row (the Pi will mount with its back facing the back of the board)
+2. Solder 13 header pins to the inner row of the opposite side of the Orange Pi Zero, in the same orientation as the other row
+3. Solder a 13 pin female header row on the back of the board on the one-row side
+4. Solder a 13 pin female header row on the back of the board on the innermost opposite side
+5. Solder two female USB connectors to the back of the board, oriented so that devices plug in in parallel to the board
+6. Using 4 header pins, solder the LM2596 to the board
+7. Using 4 header pins, solder the LM386 to the board
+8. Solder the speaker directly to the LM386, and pin it in place with header pins
 
 ## Cleanup
 
@@ -79,4 +98,3 @@ Using nitrile gloves, isopropyl alcohol, paper towels, and a soft-bristled tooth
 4. Carefully connect at least one 9v battery to one of the buckles.
 5. Some sounds occur doing boot; using a screwdriver, carefully adjust the potentiometer on the LM386 until you hear good sounding playback.
 6. Enjoy your DC614 badge!
-
