@@ -60,26 +60,26 @@ Note: Purchase links are "for example." You can often find better deals elsewher
 ### LM386
 
 1. Desolder the speaker wire holder (connector at the end) from the LM386.
-2. Desolder the 4 header pins from the other end of the LM386, carefully leaving the holes clean for reuse
+2. Desolder the 4 header pins from the other end of the LM386, carefully leaving the holes clean for reuse.
 
 ### Pi
 
-1. Desolder the 13 header pins from the Orange Pi Zero, carefully leaving the holes clean for reuse
+1. Desolder the 13 header pins from the Orange Pi Zero, carefully leaving the holes clean for reuse.
 
 ## Surface-Mount Soldering
 
-1. Solder the resistors and LED into their respective places on the face of the board
+1. Solder the resistors and LED into their respective places on the face of the board.
 
 ## Remaining Soldering
 
-1. Solder 13 header pins to the one-row side of the Orange Pi Zero, facing opposite in orientation to the original header row (the Pi will mount with its back facing the back of the board)
-2. Solder 13 header pins to the inner row of the opposite side of the Orange Pi Zero, in the same orientation as the other row
-3. Solder a 13 pin female header row on the back of the board on the one-row side
-4. Solder a 13 pin female header row on the back of the board on the innermost opposite side
-5. Solder two female USB connectors to the back of the board, oriented so that devices plug in in parallel to the board
-6. Using 4 header pins, solder the LM2596 to the board
-7. Using 4 header pins, solder the LM386 to the board
-8. Solder the speaker directly to the LM386, and pin it in place with header pins
+1. Solder 13 header pins to the one-row side of the Orange Pi Zero, facing opposite in orientation to the original header row (the Pi will mount with its back facing the back of the board).
+2. Solder 13 header pins to the inner row of the opposite side of the Orange Pi Zero, in the same orientation as the other row.
+3. Solder a 13 pin female header row on the back of the board on the one-row side.
+4. Solder a 13 pin female header row on the back of the board on the innermost opposite side.
+5. Solder two female USB connectors to the back of the board, oriented so that devices plug in in parallel to the board.
+6. Using 4 header pins, solder the LM2596 to the board.
+7. Using 4 header pins, solder the LM386 to the board.
+8. Solder the speaker directly to the LM386, and pin it in place with header pins.
 
 ## Cleanup
 
