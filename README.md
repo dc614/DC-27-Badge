@@ -31,6 +31,7 @@ Note: Purchase links are "for example." You can often find better deals elsewher
 * [Pliars](https://smile.amazon.com/AmazonBasics-Plier-Tools-Set/dp/B015X2NHOK/)
 * [Wire cutters/strippers](https://smile.amazon.com/VISE-GRIP-Stripping-Cutter-8-Inch-2078309/dp/B000JNNWQ2/)
 * [Dykes](https://smile.amazon.com/VISE-GRIP-Diagonal-Cutting-Pliers-2078306/dp/B000A0S4YO/)
+* [Gorilla Super Glue gel or similar](https://smile.amazon.com/Gorilla-Super-Glue-Gram-Clear/dp/B00OAAUAX8/)
 
 ### Soldering
 
@@ -80,6 +81,12 @@ Note: Purchase links are "for example." You can often find better deals elsewher
 6. Using 4 header pins, solder the LM2596 to the board.
 7. Using 4 header pins, solder the LM386 to the board.
 8. Solder the speaker directly to the LM386, and pin it in place with header pins.
+9. Solder the battery buckles above the LM2596 (ground on the right if the back of the board is facing you).
+
+## 3D Printing
+
+1. Slice and print the battery carriers.
+2. Using glue, attach battery carriers next to pi.
 
 ## Cleanup
 
