@@ -5,7 +5,7 @@ The DC614 badge for DEF CON 27
 
 Note: Purchase links are "for example." You can often find better deals elsewhere, especially if you're willing to wait for shipping from China.
 
-* 1x DC614 PCB
+* 1x DC614 PCBm (see `pcb/`)
 * 3x ??? Resistors
 * 1x ??? LED
 * Assorted [male header pins](https://smile.amazon.com/Bestsupplier-Single-2-54mm-Header-Connector/dp/B0716BFCQ4/)
@@ -52,6 +52,7 @@ Note: Purchase links are "for example." You can often find better deals elsewher
 
 ## Preparation
 
+* Purchase/order a DC614 PCB (see `pcb/`)
 * Carefully shuck the plastic from the RT5370 module so that it can comfortably fit behind the PCB.
 * Following the [MouseJack instructions](https://github.com/BastilleResearch/mousejack), flash the [Nordic Semiconductor research firmware](https://github.com/BastilleResearch/nrf-research-firmware) to the nRF24LU1p/CrazyRadio.
 * Using a voltmeter, calibrate the LM2596 to output 5V, then hot glue the potentiometer to avoid frying your Pi.
