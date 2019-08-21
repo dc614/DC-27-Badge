@@ -5,7 +5,7 @@ The DC614 badge for DEF CON 27
 
 Note: Purchase links are "for example." You can often find better deals elsewhere, especially if you're willing to wait for shipping from China.
 
-* 1x DC614 PCBm (see `pcb/`)
+* 1x DC614 PCB (see `pcb/`)
 * 3x ??? Resistors
 * 1x ??? LED
 * Assorted [male header pins](https://smile.amazon.com/Bestsupplier-Single-2-54mm-Header-Connector/dp/B0716BFCQ4/)
