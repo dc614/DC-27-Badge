@@ -6,8 +6,8 @@ The DC614 badge for DEF CON 27
 Note: Purchase links are "for example." You can often find better deals elsewhere, especially if you're willing to wait for shipping from China.
 
 * 1x DC614 PCB (see `pcb/`)
-* 3x ??? Resistors
-* 1x SMD-3.5X2.8X1.9(4P) LED
+* 3x 1206 82ohm Resistors
+* 1x [Everlight Elec 67-23/R6GHBHC-B01/2T](https://lcsc.com/product-detail/Others_Everlight-Elec-67-23-R6GHBHC-B01-2T_C264607.html) (SMD-3.5X2.8X1.9(4P)) LED
 * Assorted [male header pins](https://smile.amazon.com/Bestsupplier-Single-2-54mm-Header-Connector/dp/B0716BFCQ4/)
 * 2x [1x13 female header rows](https://smile.amazon.com/2-54mm-Female-Single-Straight-Header/dp/B07SDDHZ34)
 * 1x [MicroSDXC card (minimum 4 GB capacity)](https://smile.amazon.com/SanDisk-Professional-MicroSDXC-Hero-formatted/dp/9973399986/)
