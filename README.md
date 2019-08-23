@@ -104,5 +104,5 @@ Using nitrile gloves, isopropyl alcohol, paper towels, and a soft-bristled tooth
 2. Carefully seat the Pi so that its ethernet port faces downwards (towards the bottom of "Ohio").
 3. Connect the Ralink RT5370 and nRF24LU1p with antennas attached to the soldered female USB-A ports.
 4. Carefully connect at least one 9v battery to one of the buckles.
-5. Some sounds occur doing boot; using a screwdriver, carefully adjust the potentiometer on the LM386 until you hear good sounding playback.
+5. Some sounds occur during boot; using a screwdriver, carefully adjust the potentiometer on the LM386 until you hear good sounding playback.
 6. Enjoy your DC614 badge!
